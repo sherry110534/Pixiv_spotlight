@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css); /*圓體*/
+@import url(https://fonts.googleapis.com/css?family=Concert+One);
+
+body {
+  font-family: "cwTeXYen", "Concert One", sans-serif;
+}
+.transparent_back {
+  background: rgba(250, 189, 189, 0.9);
+}
+.modal-content {
+  background: rgba(255, 255, 255, 0.9);
+}
+.big-btn {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 1.5rem;
+}
+.hand {
+  cursor: pointer;
+}
+.nav-link {
+  color: rgba(255, 255, 255, 0.897) !important;
+}
+.dropdown-menu {
+  background-color: rgba(250, 189, 189, 0.9);
+  border-color: rgba(250, 189, 189, 0.9);
+  border-radius: 5px;
+}
+.dropdown-menu > a:focus, .dropdown-menu > a:hover {
+  background: rgba(250, 160, 160, 0.9);
+  border-radius: 5px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: rgba(250, 189, 189, 0.9);
+  border-color: rgba(250, 189, 189, 0.9);
+  border-radius: 5px;
+}
+ 
