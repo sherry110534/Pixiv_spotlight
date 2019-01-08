@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css); /*圓體*/
 @import url(https://fonts.googleapis.com/css?family=Concert+One);
+@import url(https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c);
 
 body {
-  font-family: "cwTeXYen", "Concert One", sans-serif;
+  font-family: "cwTeXYen",  "Concert One", sans-serif;
 }
 .transparent_back {
   background: rgba(250, 189, 189, 0.9);
@@ -35,5 +36,92 @@ body {
   background-color: rgba(250, 189, 189, 0.9);
   border-color: rgba(250, 189, 189, 0.9);
   border-radius: 5px;
+}
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.swiper-container {
+  height: 200px;
+}  
+.swiper-slide {
+  height: 200px;
+  width: 200px; 
+  display: inline-block;
+}
+.swiper-slide > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23fc7de0'%2F%3E%3C%2Fsvg%3E") !important;
+}
+.swiper-button-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23fc7de0'%2F%3E%3C%2Fsvg%3E") !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #fc7de0;
+}
+.gray {
+  color: rgb(128, 115, 115);
+}
+.light-gray {
+  color: rgb(160, 143, 143);
+}
+#name {
+  color: rgb(252, 125, 224); 
+}
+.icon {
+  display: inline;
+}
+.icon > a > img {
+  height: 32px;
+  width: 32px;
+}
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.isAbled {
+  color: rgb(128, 161, 250);
+}
+.img-outer {
+  height: 200px;
+  width: 200px; 
+  border-radius: 50% !important;
+}
+.img-outer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius:50%;
+}
+.center {
+  margin: 0 auto;
+}
+.blue {
+  color: rgb(103, 167, 250) !important;
+}
+.font {
+  font-family: "M PLUS Rounded 1c", "cwTeXYen", "sans-serif";
+}
+.font2 {
+  font-family: "cwTeXYen", "M PLUS Rounded 1c", "sans-serif";
+}
+#img_intro {
+  overflow: hidden;
+}
+#img_intro > a {
+  color: rgb(128, 115, 115);
+}
+.text {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.list-group-item.active {
+  background-color: #fac3c3;;
+  border-color: #fac3c3;
 }
  
