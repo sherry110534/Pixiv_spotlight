@@ -23,7 +23,7 @@ $(document).ready(function () {
 			news_txt += '</div>';
 			news_txt += '<div class="col-md-5">';
 			news_txt += '<div class="embed-responsive embed-responsive-4by3">';
-			news_txt += '<iframe id="map" class="embed-responsive-item" src="http://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=' + data[i]['address'] + '&z=15&t=p&output=embed"><p>Your browser does not support iframes.</p></iframe>';
+			news_txt += '<iframe id="map" class="embed-responsive-item" src="https://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=' + data[i]['address'] + '&z=15&t=p&output=embed"><p>Your browser does not support iframes.</p></iframe>';
 			news_txt += '</div>';
 			news_txt += '</div>';		
 			news_txt += '</div>';
